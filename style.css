@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  background: url(https://cdnflags.dream11.com/d11-static-pages/images/homebg_2022_ipl_updated.webp);
+  position: relative;
+}
+
+.banner-section {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  border: 1px solid white;
+  display: flex;
+}
+.banner {
+  width: 50%;
+  height: 100%;
+}
+.banner-image {
+  width: 95%;
+  height: 100%;
+}
+.ipl-image {
+  margin-top: 35px;
+  padding: 10px 20px;
+  width: 75%;
+}
+.banner-title {
+  color: white;
+  margin-bottom: 20px;
+}
+input {
+  padding: 3%;
+  width: 50%;
+  border-radius: 10px;
+}
+button {
+  padding: 3%;
+  width: 40%;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(58, 185, 86);
+}
+
+.top-image-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.top-image {
+  width: 120px;
+}
+/* for main section  */
+.main {
+  width: 90%;
+  margin: auto;
+  height: 400px;
+}
+.main-title {
+  text-align: center;
+}
+.main-highlight {
+  color: rgb(226, 71, 33);
+}
+.title-secondary {
+  text-align: center;
+  color: rgb(20, 85, 228);
+  margin-top: 25px;
+}
+.title-ternary {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+.card-parent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+/* for card section  */
+
+.card {
+  width: 30%;
+  background-color: #eeeeee;
+  padding: 20px 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  position: relative;
+}
+.card-image {
+  width: 40%;
+  position: absolute;
+  top: -30%;
+  right: 0;
+}
+.card-number {
+  box-sizing: border-box;
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  padding: 2% 4%;
+  top: -15px;
+  font-weight: bolder;
+}
